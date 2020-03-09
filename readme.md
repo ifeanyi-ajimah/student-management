@@ -1,3 +1,33 @@
+
+STEPS: 
+
+Pull application from repo
+
+Create a database on your .env file and same on local machine,  connect to your local machine. 
+To proceed, run the following artisan commands on your terminal. 
+
+php artisan migrate  -- to add tables to database
+
+php artisan db:seed  -- to seed database with dummy data
+
+php artisan serve   -- to start the server
+
+Links:
+
+
+/api/events ---  POST type
+/api/events ---  GET type
+/api/events/actors/{actor_id}   ---  GET type
+/api/actors/{id}   ---   PUT type
+/api/actors        ---  GET type
+/api/actors/streaK   ---  GET type
+  /api/erase  ---  DELETE type 
+
+
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
